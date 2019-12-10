@@ -11,52 +11,76 @@
 
     <TextView
         android:id="@+id/tvView1"
-        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#2196F3"
         android:textSize="30sp"
-        android:text="View 1">
+        android:text="Blue">
 
     </TextView>
 
     <TextView
+        android:id="@+id/tvView2"
+        android:layout_centerHorizontal="true"
         android:layout_above="@+id/tvView1"
-        android:layout_toStartOf="@+id/tvView1"
+        android:layout_alignLeft="@+id/tvView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#4CAF50"
         android:textSize="30sp"
-        android:text="View 2">
+        android:text="Green">
 
     </TextView>
 
     <TextView
-        android:layout_above="@+id/tvView1"
-        android:layout_toEndOf="@+id/tvView1"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/tvView2"
+        android:layout_alignLeft="@+id/tvView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#F44336"
         android:textSize="30sp"
-        android:text="View 3">
+        android:text="Red">
 
     </TextView>
 
     <TextView
+        android:id="@+id/tvView3"
+        android:layout_centerHorizontal="true"
         android:layout_below="@+id/tvView1"
-        android:layout_toStartOf="@+id/tvView1"
+        android:layout_alignLeft="@+id/tvView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#FF9800"
         android:textSize="30sp"
-        android:text="View 4">
+        android:text="Orange">
 
     </TextView>
 
     <TextView
-        android:layout_below="@+id/tvView1"
-        android:layout_toEndOf="@+id/tvView1"
+        android:id="@+id/tvView4"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvView3"
+        android:layout_alignLeft="@+id/tvView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#9C9A9A"
         android:textSize="30sp"
-        android:text="View 5">
+        android:text="Gray">
+
+    </TextView>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvView4"
+        android:layout_alignLeft="@+id/tvView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#C875DF"
+        android:textSize="30sp"
+        android:text="Pink">
 
     </TextView>
 
